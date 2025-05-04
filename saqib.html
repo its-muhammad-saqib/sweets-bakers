@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smexy Navbar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="saqib.css" />
+</head>
+<body>
+<!-- navbar sections -->
+  <nav class="navbar">
+    <div class="logo">Sweets Bakers</div>
+    <div class="menu-toggle" id="menuToggle">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="nav-links" id="navLinks">
+      <a href="#Home">Home</a>
+      <a href="#Services">Services</a>
+      <a href="#About">About</a>
+      <a href="#Contact">Contact</a>
+      <div class="auth-links">
+        <a href="login.html" class="login">Login</a>
+        <a href="signup.html" class="signup">Sign Up</a>
+      </div>
+    </div>
+   
+    </div>
+  </nav>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+  </script>
+
+<!-- hero sections -->
+
+  <section class="home">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Welcome to Sweet Bakers</h1>
+      <p>Delighting your taste buds with freshly baked sweets, cakes & more.</p>
+      <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+  </section>
+
+
+
+</body>
+</html>
+<!-- services section -->
+<section class="services" id="services">
+    <h2 class="section-title">Our Sweet Services</h2>
+    <div class="services-container">
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Cake Icon">
+        <h3>Cake Customization</h3>
+        <p>Create your dream cake with our personalized design service for any occasion.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3075/3075973.png" alt="Cupcake Icon">
+        <h3>Fresh Cupcakes</h3>
+        <p>Delicious handmade cupcakes in a variety of flavors baked fresh daily.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3075/3075982.png" alt="Dessert Icon">
+        <h3>Party Desserts</h3>
+        <p>Sweeten your event with our range of mini desserts and party packs.</p>
+      </div>
+    </div>
+  </section>
+  <div class="services-container">
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Cake Icon">
+      <h3>Cake Customization</h3>
+      <p>Create your dream cake with our personalized design service for any occasion.</p>
+    </div>
+  
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3075/3075973.png" alt="Cupcake Icon">
+      <h3>Fresh Cupcakes</h3>
+      <p>Delicious handmade cupcakes in a variety of flavors baked fresh daily.</p>
+    </div>
+  
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3075/3075982.png" alt="Dessert Icon">
+      <h3>Party Desserts</h3>
+      <p>Sweeten your event with our range of mini desserts and party packs.</p>
+    </div>
+  
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1046/1046890.png" alt="Chocolate Icon">
+      <h3>Chocolates & Truffles</h3>
+      <p>Rich handcrafted chocolates and truffles for gifts or self-indulgence.</p>
+    </div>
+  
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/763/763704.png" alt="Bakery Icon">
+      <h3>Bakery Delivery</h3>
+      <p>Get your sweets delivered warm and fresh to your doorstep.</p>
+    </div>
+  
+    <div class="service-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2329/2329081.png" alt="Bread Icon">
+      <h3>Special Breads</h3>
+      <p>Enjoy artisan breads made from the finest ingredients, fresh every morning.</p>
+    </div>
+  </div>
+  <!-- menu section -->
+  <section class="menu" id="menu">
+    <h2 class="section-title">Our Sweet Menu</h2>
+    <div class="menu-container">
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1605470357489-5fd61d25b4c8" alt="Chocolate Cake">
+        <h3>Chocolate Cake</h3>
+        <p>$12.99</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f" alt="Strawberry Cupcake">
+        <h3>Strawberry Cupcake</h3>
+        <p>$3.49</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1590080875765-96d1c194bdee" alt="Vanilla Donut">
+        <h3>Vanilla Donut</h3>
+        <p>$2.99</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1591994842196-7b5fbd3f2b36" alt="Macarons Box">
+        <h3>Macarons Box</h3>
+        <p>$10.00</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0" alt="Eclairs">
+        <h3>Chocolate Eclairs</h3>
+        <p>$4.75</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1601933471667-7f0c1b676e4f" alt="Fruit Cake">
+        <h3>Fruit Cake</h3>
+        <p>$9.99</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1612197526240-84a0e4fd4f24" alt="Fudge Brownie">
+        <h3>Fudge Brownie</h3>
+        <p>$3.99</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1631652471179-4e2db1a3607b" alt="Mini Donuts">
+        <h3>Mini Donuts</h3>
+        <p>$4.99</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1589308078052-16619d59e4e9" alt="Cinnamon Roll">
+        <h3>Cinnamon Roll</h3>
+        <p>$3.75</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1601979031925-2e8b8c29aeee" alt="Mousse Cups">
+        <h3>Mousse Cups</h3>
+        <p>$4.95</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1602029221487-3b1df9f04bfc" alt="Tiramisu Slice">
+        <h3>Tiramisu Slice</h3>
+        <p>$6.25</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="Sugar Cookies">
+        <h3>Sugar Cookies</h3>
+        <p>$3.25</p>
+      </div>
+    </div>
+  </section>
+  <!-- about sections -->
+  <section class="about" id="about">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Bakery Interior">
+      </div>
+      <div class="about-text">
+        <h2>About Sweets Bakers</h2>
+        <p>
+          At Sweets Bakers, we believe that every bite should bring a smile. Our journey started with a passion for handmade, high-quality baked treats made with love and the finest ingredients. From custom cakes to daily pastries, we offer a wide variety of sweets that make every celebration extra special.
+        </p>
+        <p>
+          With years of baking expertise and a flair for creativity, our team crafts delicious masterpieces that look as good as they taste. Whether it’s a birthday, wedding, or just your sweet tooth calling, we’re here to serve joy – one dessert at a time.
+        </p>
+        <a href="#menu" class="btn-about">Explore Our Menu</a>
+      </div>
+    </div>
+  </section>
+  <!-- contact section -->
+  <section class="contact" id="contact">
+    <h2 class="section-title">Get in Touch</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        <p><strong>Address:</strong> 123 Sweet Street, Sugar Town, CA 90210</p>
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+        <p><strong>Email:</strong> hello@sweetsbakers.com</p>
+        <p><strong>Opening Hours:</strong> Mon–Sat: 9am – 8pm</p>
+      </div>
+      <form class="contact-form" action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+  <!-- footer sections -->
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>Sweets Bakers</h3>
+        <p>Crafting delightful sweets and memories since 2010. Visit us and taste the joy in every bite!</p>
+      </div>
+  
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#facebook"><i class="fab fa-facebook-f"></i>Facebook</a>
+          <a href="#instagram"><i class="fab fa-instagram"></i>Instagram</a>
+          <a href="#twitter"><i class="fab fa-twitter"></i>Twitter</a>
+          <a href="#youtube"><i class="fab fa-youtube"></i>Youtube</a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2025 Sweets Bakers. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+  
